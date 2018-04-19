@@ -1,0 +1,155 @@
+element.style {
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+    font-size: 1.3rem;
+    margin: 0;
+    padding-top: 140px;
+}
+
+html {
+    font-size: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.Top {
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    font-size: 13px;
+    border-bottom: 1px solid #e0e4e9;
+}
+
+.Top:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 20px;
+    z-index: 1;
+}
+.Div1 {
+    border-bottom: 1px solid #e0e4e9;
+    position: sticky;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+div {
+    display: block;
+}
+
+
+.Top table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.Div1 table {
+    width: 100%;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+user agent stylesheet
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.Top tr {
+    height: 32px;
+}
+
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.Top2 tr:after, .Table1 thead tr:after {
+    background: #fff;
+}
+.Top tr:after {
+    content: "";
+    width: 90%;
+    display: table-cell;
+}
+
+element.style {
+    width: 128.571px;
+
+}
+.Top td:first-child, .Top th:first-child {
+    text-align: left;
+    padding-left: 5px;
+    padding-left: 27px;
+}
+.Top2 th:first-child, .Table1 td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+.Top th {
+    min-width: 100px;
+    font-weight: 400!important;
+}
+.Top2 th, .Table1 td {
+    padding-left: 20px;
+    text-align: right;
+
+}
+.Top2 th {
+    white-space: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: bottom;
+    color: #5e656c;
+    font-size: 11px;
+    font-weight: 400;
+    background-color: #fff;
+}
+.Item {
+    cursor: pointer;
+}
+
+user agent stylesheet
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.Item:after {
+    content: "\2303";
+    font-size: 1.25em;
+    color: #000;
+    display: none;
+    line-height: 0;
+    vertical-align: sub;
+}

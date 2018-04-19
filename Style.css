@@ -1,0 +1,67 @@
+.gap-top
+{
+    margin-top: 50px
+}
+.Navigation
+{
+    overflow: hidden;
+
+    margin: auto;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    background-color: #fff;
+}
+.Navigation a
+{
+    font-size: 17px;
+
+    padding: 15px 18px;
+
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #000;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-radius: 25px;
+}
+.Navigation a:hover
+{
+    color: black;
+    background-color: #ddd;
+}
+.Navigation a.active
+{
+    color: black;
+    background-color: #ddd;
+}
+.title
+{
+    font-family: Georgia;
+    font-size: 30px;
+}
+.carousel-control-next{
+    left: 100;
+}
+.thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.Table{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    font-size: 13px;
+    border-bottom: 1px solid #e0e4e9;
+}
+h1.relative{
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+    bottom: 110px
+}
